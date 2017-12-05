@@ -1,10 +1,18 @@
-# CU Sage Sample
+# Math Academy Gamification
 
-Hi!  This is my sample code base to demonstrate my skills and experience to work on CU-Sage, more specifically: "A gameful affinity space that enables curricula assimilation with quest management and learning metrics using Node.js."
-
-Although, I have tried to follow good practices, due to the nature of this sample and a quick work, I have taken shortcuts to meet the time constraints.
+Hi!  This is a project I created for fun and also to demonstrate my skills and experience.  I thought it would be cool to build a gamificartion website with NodeJs and React, and build some cool functionality like sounds and animations which make it all the more interesting.
 
 I hope you like it!
+
+## Work In Progress
+
+This is still a work in progress.  Here is what the progress is like:
+- [x] Basic Setup of AltJs Stores, React, MondoDB, and ExpressJs routes.
+- [x] Simple login support (without password)
+- [x] UI to view all missions
+- [ ] UI to view and complete excercises
+- [ ] UI to synchronize mission progress with back-end and add persistence support
+- [ ] Add sound and animation for excercise and mission completed.
 
 ## The Sample
 
@@ -20,7 +28,7 @@ Once you are on the dashboard, you have a list of missions you can master. Once 
 2. > `docker pull docker pull mongo`
 3. > `docker run -d -p 27017:27017 --name mongodb mongo`
 
-*Note: MongoDB instance must be running on port 27017. For this sample, the port has been hardcoded in the code.
+*Note: MongoDB instance must be running on port 27017. For this sample, the port has been hardcoded in the code.*
 
 ### Application
 
